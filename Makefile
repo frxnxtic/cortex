@@ -1,3 +1,3 @@
-main: main.cpp
-	g++ -ggdb main.cpp -o main
+cortex: cortex.cpp
+	g++ -ggdb cortex.cpp -o cortex
 

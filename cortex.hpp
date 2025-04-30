@@ -1,19 +1,7 @@
 #pragma once
 
-#include <iostream>
-#include <vector>
-#include <string>
-#include <fstream>
+void usage() {
+    std::cout << "USAGE:\n";
+    std::cout << "    ./cortex [input file]\n";
+}
 
-enum class TokenType {
-    KEYWORD,
-    VALUE
-};
-
-struct Token{
-    TokenType type;
-};
-
-class Lexer {
-
-};

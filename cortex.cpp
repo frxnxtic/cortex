@@ -1,5 +1,5 @@
+#include "lexer.hpp"
 #include "cortex.hpp"
-
 void usage() {
     std::cout << "USAGE:\n";
     std::cout << "    ./cortex [input file]\n";
